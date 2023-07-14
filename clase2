@@ -1,3 +1,19 @@
+//Variables 
+
+//entero
+int edad = 23;
+//cadena
+string nombre = "juan";
+//real
+double trm = 4300.20;
+//logico  true o false
+bool esFrio = true;
+
+//Metodos de consola
+Console.WriteLine("hola mundo"); // escribe en hola mundo en la consola
+Console.ReadLine(); // lee dato ingresado en la consola
+
+
 //declaramos variable cant de tipo int
 int cant;
 //declaramos variable cantidadStr de tipo string
