@@ -1,0 +1,31 @@
+//declaramos variable cant de tipo int
+int cant;
+//declaramos variable cantidadStr de tipo string
+string cantidadStr;
+//leemos en consola la cantidad ingresada por el usuario
+cantidadStr = Console.ReadLine();
+//Conversion explicita de string a entero
+cant = Convert.ToInt32(cantidadStr);
+//Imprimir
+Console.WriteLine(cant);
+
+
+
+//Conversion implicita entre int a string
+string mensaje;
+int edad;
+string resultado;
+mensaje = "La edad de fulanito es: ";
+Console.WriteLine("Ingrese la edad");
+edad = Convert.ToInt32(Console.ReadLine());
+resultado = mensaje + edad;
+Console.WriteLine(resultado);
+
+
+
+//conversion explicita entre double a entero
+int edad;
+double TRM = 4300.20;
+//conversion explicita de real a entero.
+edad = Convert.ToInt32(TRM);
+Console.WriteLine(edad);
