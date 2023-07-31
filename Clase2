@@ -1,0 +1,108 @@
+//Relacionales
+/* < menor que 
+   > mayor que
+   <= menor o igual a
+   >= mayor o igual
+   == igualdad
+   != diferente de
+   ! negacion
+   */
+// bool resultado;
+/*menor que 
+int num1=4;
+int num2=8;
+resultado = num1 < num2;
+Console.WriteLine("El numero "+num1+" menor que "+num2 +" "+ resultado);
+*/
+
+/* mayor que 
+int num1=3;
+int num2=7;
+resultado = num1 > num2;
+Console.WriteLine("El numero "+num1+" mayor o igual que "+num2 +" "+ resultado);
+*/
+
+/* menor o igual 
+int num1=6;
+int num2=6;
+resultado = num1 <= num2;
+Console.WriteLine("El numero "+num1+" menor o igual que "+num2 +" "+ resultado);
+*/
+
+/*
+int num1=2;
+int num2=9;
+resultado = num1 >= num2;
+Console.WriteLine("El numero "+num1+" mayor o igual que "+num2 +" "+ resultado);
+*/
+/*
+diferente que
+int num1=5;
+int num2=1;
+resultado = num1 != num2;
+Console.WriteLine("El numero "+num1+"  diferente que "+num2 +" "+ resultado);
+*/
+
+/*
+int num1=10;
+int num2=10;
+resultado = num1 == num2;
+Console.WriteLine("El numero "+num1+"es  igual que "+num2 +" "+ resultado);
+*/
+
+//Expresiones logicas 
+// Y && 
+// O ||
+/*
+bool tarjeta;
+bool clave;
+Console.WriteLine("Bienvenido a su cajero del banco Robanlombia");
+Console.WriteLine("Para realizar la transaccion indique si posee la tarjeta");
+tarjeta = Convert.ToBoolean(Console.ReadLine());
+Console.WriteLine("Para realizar la transaccion indique si posee la clave");
+clave = Convert.ToBoolean(Console.ReadLine());
+resultado = tarjeta && clave;
+Console.WriteLine("Puede realizar la transaccion: "+ resultado);
+*/
+//operador OR
+
+/*
+bool perro;
+bool gato;
+Console.WriteLine("Te regalaron una mascota?");
+Console.WriteLine("Ingresa true si la mascota es un perro");
+perro = Convert.ToBoolean(Console.ReadLine());
+Console.WriteLine("Ingresa true si la mascota es un gato");
+gato = Convert.ToBoolean(Console.ReadLine());
+resultado = perro || gato;
+
+Console.WriteLine("La sobrina esta feliz? "+resultado);
+*/
+//Condicionales
+// int edad;
+// int novios;
+
+// Console.WriteLine("Cuantos años tiene");
+// edad = Convert.ToInt32(Console.ReadLine());
+// Console.WriteLine("Cuantos novios tiene");
+// novios = Convert.ToInt32(Console.ReadLine());
+// if(edad < 18 && novios >= 1 ){
+//     Console.WriteLine("Es castigada");
+// }else{
+//     Console.WriteLine("No Es castigada");
+// }
+
+// double nota;
+// string mensaje = "Perdió";
+// Console.WriteLine("----Ingrese la nota del examen: ");
+// nota = Convert.ToDouble(Console.ReadLine());
+
+// if(nota < 0 || nota > 5){
+//     mensaje ="Número debe ser entre 0 y 5";
+// }else{
+//     if(nota >= 3){
+//         mensaje = "Ganó";
+//     }
+// }
+
+// Console.WriteLine(mensaje);
