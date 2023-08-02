@@ -1,0 +1,84 @@
+//Crear estructura decision multiple
+
+/*leer un caracter ingreado por consola, 
+si el caracter es a entonces imprimir que el dispositivo es android
+si el caracter es i entonces imprimir que el dispositivo es ios
+*/
+/*
+string opcion;
+
+Console.WriteLine("Ingrese un caracter");
+opcion = Console.ReadLine();
+*/
+/*
+if (opcion == "a")
+{
+    Console.WriteLine("El dispositivo es android");
+}
+
+if (opcion == "i")
+{
+    Console.WriteLine("El dispositivo es ios");
+}
+
+if (opcion == "h")
+{
+     Console.WriteLine("El dispositivo es huawei");
+}
+
+if (opcion == "x")
+{
+     Console.WriteLine("El dispositivo es xioami");
+}
+
+if (opcion == "w")
+{
+     Console.WriteLine("El dispositivo es windows");
+}*/
+
+/*
+switch (opcion)
+{
+    case "a":
+        Console.WriteLine("El dispositivo es android");
+        break;
+    case "i":
+        Console.WriteLine("El dispositivo es ios");
+        break;
+    case "h": 
+        Console.WriteLine("El dispositivo es huawei");
+        break;
+    case "x":
+        Console.WriteLine("El dispositivo es xioami");
+        break;    
+    default:
+        Console.WriteLine("Opcion invalida, no se reconocio dispositivo");
+        break;
+}*/
+
+//Ciclo mientras 
+//solicitarle al usuario que ingrese un numero y luego contar hasta ese numero
+//usando el ciclo while
+/*int numero;
+Console.WriteLine("Ingrese un numero:");
+numero = Convert.ToInt32(Console.ReadLine());
+
+int contador = 0;
+while (contador <= numero )
+{
+    Console.WriteLine(contador + " ");
+    contador++;
+}*/
+
+//ejemplo vueltas a la cancha
+int metaVueltas;
+Console.WriteLine("Ingrese un numero de vueltas a dar:");
+metaVueltas = Convert.ToInt32(Console.ReadLine());
+
+int contador = 1;
+while (contador <= metaVueltas )
+{
+    Console.WriteLine("vuelta numero: "+ contador);
+    contador++;
+}
+Console.WriteLine("Alcanzaste tu meta!!"+ metaVueltas + " vueltas");
